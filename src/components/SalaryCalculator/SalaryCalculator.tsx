@@ -152,7 +152,7 @@ const Person:React.FC<IPerson & {deletePerson: (id:number) => void, handleChange
           <div className='px-4 py-2.5 bg-slate-900 rounded-lg text-white dark:bg-slate-600'>
             <p>{formatNumber(netto)}</p>
           </div>
-          <div className='bg-slate-950 rounded-xl  p-2 text-xs mt-4 italic'>
+          <div className='bg-slate-200 text-slate-800 dark:bg-slate-950 dark:text-white rounded-xl  p-2 text-xs mt-4 italic'>
             {formatNumber(formState.salary - netto) + " adót fizetsz"}
           </div>
         </div>

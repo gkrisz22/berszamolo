@@ -15,6 +15,9 @@ const Unemployed = ({csaladi, setCsaladi, eltartott, setEltartott, kedvezmenyeze
         if(value < 0) {
             return;
         }
+        if(value < kedvezmenyezett) {
+            setKedvezmenyezett(value);
+        }
         setEltartott(value);
     }
     return (
